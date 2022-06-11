@@ -33,12 +33,13 @@ footer {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 
     .col-4 {
         float: left;
-        padding-right: 30px;
+        padding-right: 10%;
+        padding-left: 10%;
     }
 }
 
@@ -56,6 +57,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .social-wrap {

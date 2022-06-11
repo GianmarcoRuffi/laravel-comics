@@ -19,11 +19,12 @@
         <li><a href="">news</a></li>
         <li><a href="">shop</a></li>
       </ul>
-      <div class="search">
+      
+    </nav>
+    <div class="search">
         <input type="text" placeholder="Search">
         <i class="fa-solid fa-magnifying-glass">
         </i>
       </div>
-    </nav>
   </header>
 
