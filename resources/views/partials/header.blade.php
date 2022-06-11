@@ -1,12 +1,9 @@
 <header>
-<div class="container">
-        <div class="row">
-            <p>dc power visa</p>
-            <P>additional dc sites</P>
-        </div>
-    </div>
+
     <div id="logo">
-      <img src="@/public/images/dc-logo.png" alt="logo" />
+      <img src="{{url('/images/dc-logo.png')}}" alt="logo"/>
+      
+      
     </div>
 
     <nav>

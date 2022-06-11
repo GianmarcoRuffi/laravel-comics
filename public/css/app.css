@@ -23,7 +23,7 @@ ul li a.active {
 }
 
 footer {
-  background-image: url("../assets/img/footer-bg.jpg");
+  background-image: url("{{url('/images/footer-bg.jpg')}}");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

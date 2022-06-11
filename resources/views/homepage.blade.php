@@ -19,6 +19,8 @@
     <div class="load-more">
       <div class="btn-main"><span>Load More</span></div>
     </div>
+
+    
   </main>
 
   @endsection
@@ -28,7 +30,7 @@
 
 .jumbotron{
   height: 400px;
-  background-image: url("./public/images/jumbotron.jpg");
+  background-image: url("{{url('public/images/jumbotron.jpg')}}");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;}

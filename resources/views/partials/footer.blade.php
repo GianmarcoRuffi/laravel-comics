@@ -46,11 +46,52 @@
       </div>
     </div>
     <div class="footer-right">
-      <img src="../assets/img/dc-logo-bg.png" alt="" />
+      <img src="{{url('/images/dc-logo-bg.png')}}" alt="logo"/>
     </div>
   </footer>
+  <div
+    id="socials"
+    class="container d-flex justify-content-around align-items-center"
+  >
+    <div class="btn-signup"><span>Sign-Up NOW!</span></div>
+    <div class="links">
+      <ul>
+        <li>
+          <a href=""><span class="bottom-text">Follow us</span></a>
+        </li>
+        <li>
+          <div class="social-wrap">
+            <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </li>
+        <li>
+          <div class="social-wrap">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </li>
+        <li>
+          <div class="social-wrap">
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </li>
+        <li>
+          <div class="social-wrap">
+            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </li>
+        <li>
+          <div class="social-wrap">
+            <a href=""><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <style scoped lang="scss">
 @import "partials/footer.scss";
 @import "partials/generals.scss";
+
+
+
 </style>
