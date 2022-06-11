@@ -30,4 +30,7 @@
     </nav>
   </header>
 
-  
+  <style scoped lang="scss">
+@import "partials/header.scss";
+@import "partials/generals.scss";
+</style>

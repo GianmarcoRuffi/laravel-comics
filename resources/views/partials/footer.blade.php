@@ -49,3 +49,8 @@
       <img src="../assets/img/dc-logo-bg.png" alt="" />
     </div>
   </footer>
+
+  <style scoped lang="scss">
+@import "partials/footer.scss";
+@import "partials/generals.scss";
+</style>
