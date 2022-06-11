@@ -3,6 +3,7 @@
 
 
 
+
 <div class="jumbotron"></div>
 
 <main id="comics">
@@ -28,20 +29,16 @@
 
   <style scoped lang="scss">
 
-.jumbotron{
-  height: 400px;
-  background-image: url("{{url('public/images/jumbotron.jpg')}}");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;}
 
- img {
+
+ .card img {
   height: 200px;
   width: 200px;
   object-fit: cover;
   object-position: top;
   padding-bottom: 5px;
  }
+ 
 .card {
   max-width: 200px;
   height: calc(200px + 36px);

@@ -1,7 +1,7 @@
 <header>
 
     <div id="logo">
-      <img src="{{url('/images/dc-logo.png')}}" alt="logo"/>
+      <img src='./images/dc-logo.png' alt="logo"/>
       
       
     </div>

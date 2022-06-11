@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="footer-right">
-      <img src="{{url('/images/dc-logo-bg.png')}}" alt="logo"/>
+    <img src='./images/dc-logo-bg.png' alt="logo"/>
     </div>
   </footer>
   <div
@@ -88,7 +88,7 @@
     </div>
   </div>
 
-  <style scoped lang="scss">
+  <style lang="scss">
 @import "partials/footer.scss";
 @import "partials/generals.scss";
 
