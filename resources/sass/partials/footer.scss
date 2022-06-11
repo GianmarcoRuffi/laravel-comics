@@ -33,11 +33,12 @@ footer {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 
     .col-4 {
         float: left;
+
         padding-right: 10%;
         padding-left: 10%;
     }

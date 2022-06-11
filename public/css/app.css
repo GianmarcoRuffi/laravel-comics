@@ -53,7 +53,7 @@ footer ul li a {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 .footer-left .col-4 {
@@ -230,7 +230,7 @@ main {
   opacity: 0.8;
 }
 
-.main {
+.merchandise {
   background-color: #0282f9;
   color: white;
   width: 100%;
