@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+}
+
+ul li {
+    display: inline-block;
+
+    a {
+        padding: 15px 15px;
+        text-decoration: none;
+        color: #303030;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        &:hover {
+            color: #0282f9;
+        }
+
+        &.active {
+            color: #0282f9;
+        }
+    }
+}

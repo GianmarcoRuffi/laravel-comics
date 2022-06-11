@@ -1,0 +1,251 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140px;
+}
+
+ul li {
+  display: inline-block;
+}
+ul li a {
+  padding: 15px 15px;
+  text-decoration: none;
+  color: #303030;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ul li a:hover {
+  color: #0282f9;
+}
+ul li a.active {
+  color: #0282f9;
+}
+
+footer {
+  background-image: url("../assets/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 370px;
+  display: flex;
+}
+footer h2 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer ul li a {
+  color: grey;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer-left {
+  width: 40%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+}
+.footer-left .col-4 {
+  float: left;
+  padding-right: 30px;
+}
+
+.footer-right {
+  width: 60%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#socials {
+  background-color: #303030;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-wrap {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  background-color: #797979;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.social-wrap:hover {
+  background-color: #0282f9;
+}
+.social-wrap:hover i {
+  color: white;
+}
+.social-wrap i {
+  color: #303030;
+}
+
+.bottom-text {
+  color: #0282f9;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.bottom-text:hover {
+  text-decoration: underline;
+}
+
+.btn-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #0282f9;
+  padding: 10px 15px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-signup:hover {
+  cursor: pointer;
+  background-color: #0282f9;
+}
+
+ul li {
+  display: inline-block;
+}
+ul li a {
+  padding: 30px 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+main {
+  background-color: #1c1c1c;
+  color: white;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 80%;
+}
+
+.btn-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #0282f9;
+  background-color: #0282f9;
+  padding: 10px 15px;
+  height: 35px;
+  width: 200px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-main:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.product-label {
+  position: absolute;
+  top: -3%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background-color: #0282f9;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #0282f9;
+  padding: 10px 15px;
+  height: 60px;
+  width: 240px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.load-more {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.main {
+  background-color: #0282f9;
+  color: white;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row {
+  list-style-type: none;
+  padding: 20px;
+  text-transform: uppercase;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.col-2 {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.col-2:hover {
+  cursor: pointer;
+}
+.col-2 img {
+  height: 45px;
+  width: auto;
+}
+.col-2 span {
+  padding-left: 10px;
+}
+.col-2 span:hover {
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}

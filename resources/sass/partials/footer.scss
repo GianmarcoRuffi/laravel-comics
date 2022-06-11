@@ -1,0 +1,123 @@
+footer {
+    background-image: url("../assets/img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    height: 370px;
+    display: flex;
+
+    h2 {
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style-type: none;
+            a {
+                color: grey;
+                font-size: 13px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.footer-left {
+    width: 40%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+
+    .col-4 {
+        float: left;
+        padding-right: 30px;
+    }
+}
+
+.footer-right {
+    width: 60%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socials {
+    background-color: #303030;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-wrap {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #797979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    &:hover {
+        background-color: #0282f9;
+
+        i {
+            color: white;
+        }
+    }
+
+    i {
+        color: #303030;
+    }
+}
+
+.bottom-text {
+    color: #0282f9;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.btn-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid #0282f9;
+    padding: 10px 15px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #0282f9;
+    }
+}
+
+ul li {
+    display: inline-block;
+
+    a {
+        padding: 30px 10px;
+        text-decoration: none;
+        color: grey;
+    }
+}
