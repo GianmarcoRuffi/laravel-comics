@@ -88,10 +88,3 @@
     </div>
   </div>
 
-  <style lang="scss">
-@import "partials/footer.scss";
-@import "partials/generals.scss";
-
-
-
-</style>
